@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="WindView">
+        <attr name="text_size" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="tags_color" format="color" />
+        <attr name="arrow_color" format="color" />
+        <!--<attr name="exampleString" format="string" />-->
+        <!--<attr name="exampleDimension" format="dimension" />-->
+        <!--<attr name="exampleColor" format="color" />-->
+        <!--<attr name="exampleDrawable" format="color|reference" />-->
+    </declare-styleable>
+</resources>
