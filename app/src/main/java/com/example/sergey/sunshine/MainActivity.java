@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity implements ForecastFragment.
             if (savedInstanceState == null) {
                     Uri dateUri = WeatherContract.WeatherEntry.buildWeatherLocationWithStartDate(
                             mLocation, System.currentTimeMillis());
-                    // begin transaction
+                    // Begin Transaction
                     getSupportFragmentManager().beginTransaction()
                         .replace(R.id.weather_detail_container, new DetailFragment().newInstance(dateUri), DETAILFRAGMENT_TAG)
                         .commit();
